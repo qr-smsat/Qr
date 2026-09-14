@@ -1,0 +1,66 @@
+{
+  "id": "/Qr/",
+  "name": "جستجوی تجهیزات دفتر خوزستان",
+  "short_name": "Find_QR",
+  "description": "جستجوی سریع تجهیزات، کد QR، و اطلاعات شعبه/باجه بر اساس فایل اکسل هفتگی",
+  "start_url": "/Qr/index.html",
+  "scope": "/Qr/",
+  "display": "standalone",
+  "display_override": [
+    "browser",
+    "window-controls-overlay",
+    "minimal-ui",
+    "standalone",
+    "fullscreen"
+  ],
+  "orientation": "portrait",
+  "background_color": "#0f1720",
+  "theme_color": "#0f1720",
+  "lang": "fa",
+  "dir": "rtl",
+  "categories": [
+    "business",
+    "utilities",
+    "productivity"
+  ],
+  "icons": [
+    {
+      "src": "/Qr/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/Qr/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/Qr/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/Qr/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "دریافت آنلاین",
+      "short_name": "دریافت آنلاین",
+      "description": "دریافت آخرین فایل تجهیزات از گوگل درایو",
+      "url": "/Qr/index.html",
+      "icons": [
+        {
+          "src": "/Qr/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}
